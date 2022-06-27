@@ -4,9 +4,8 @@
 }
 
 #bg-img {
-  background-image: linear-gradient(
-      to right,
-      rgba(250, 251, 252, 0.9),
+     background-image:
+ linear-gradient(to right,rgba(250, 251, 252, 0.9),
       rgba(250, 251, 252, 0.9)
     ),
     url("./img/bg-3.jpg");
