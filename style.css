@@ -27,8 +27,12 @@
 #img-heading {
   padding-left: 20px;
   padding-top: 70px;
-}
+  }
 
+  #main-p {
+    margin-left: 20px;
+  }
+  
 #img-heading h1 {
   background-clip: text;
   -webkit-background-clip: text;
@@ -42,3 +46,25 @@
   background-size: contain;
   margin-top: 200px;
 }
+
+div .hover:hover {
+ border: 3px solid white;
+}
+
+@media screen and (min-width:768px) {
+  #img-heading {
+    padding-left: 200px;
+    padding-top: 70px;
+    }
+  
+    #main-p {
+      margin-left: 200px;
+    
+    }
+  
+    div #year {
+      margin-left: -200px;
+      text-align: start;
+    }
+  }
+  
