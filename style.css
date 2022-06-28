@@ -32,7 +32,7 @@
 #img-heading h1 {
   background-clip: text;
   -webkit-background-clip: text;
-  background-repeat: repeat;
+   background-repeat: repeat;
   background-image: url("./img/text-bg-2.jpg");
   color: transparent;
 }
