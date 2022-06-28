@@ -34,21 +34,31 @@
   }
   
 #img-heading h1 {
-  background-clip: text;
+  color: #ec5242;
+  background-image: url('./img/text-bg-2.jpg');
+  background-size: cover;
   -webkit-background-clip: text;
-   background-repeat: repeat;
-  background-image: url("./img/text-bg-2.jpg");
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
-#about {
-  background-image: url(./img/pattren.png);
+#program {
+  background-image: url(./img/programs-bg.jpeg);
   background-size: contain;
   margin-top: 200px;
 }
 
 div .hover:hover {
  border: 3px solid white;
+}
+
+
+#logo {
+  height: 80px;
+  width: 80px;
+}
+
+#menu li a:hover {
+  color: orange;
 }
 
 @media screen and (min-width:768px) {
@@ -62,9 +72,14 @@ div .hover:hover {
     
     }
   
-    div #year {
-      margin-left: -200px;
+    #year {
+      margin-right: 280px;
       text-align: start;
     }
+
+    div .hover {
+      min-height: 300px;
+     }
+    
   }
   
