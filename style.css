@@ -30,10 +30,11 @@
 }
 
 #img-heading h1 {
+  background-clip: text;
   -webkit-background-clip: text;
-	background-clip: text;
-	background-image: url('./img/text-bg-2.jpg');
-	color: transparent;
+  background-repeat: repeat;
+  background-image: url("./img/text-bg-2.jpg");
+  color: transparent;
 }
 
 #about {
