@@ -2,15 +2,10 @@
   padding: 0;
   margin: 0;
 }
-  
+
 #bg-img {
   background-image:
-  linear-gradient(
-  to right,
- rgba(250, 251, 252, 0.9),
- rgba(250, 251, 252, 0.9)
- ),
- url("./img/bg-3.jpg");
+  linear-gradient(to right,rgba(250, 251, 252, 0.9),rgba(250, 251, 252, 0.9)),url("./img/bg-3.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,8 +32,8 @@
 
 #img-heading h1 {
   background-repeat: repeat;
-  -webkit-background-clip:var(--text);
   background-clip: text;
+  -webkit-background-clip: text;
   background-image: url("./img/text-bg-2.jpg");
   color: transparent;
 }
