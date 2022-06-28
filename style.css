@@ -4,8 +4,7 @@
 }
 
 #bg-img {
-  background-image:
-  linear-gradient(to right,rgba(250, 251, 252, 0.9),rgba(250, 251, 252, 0.9)),url("./img/bg-3.jpg");
+  background-image: linear-gradient(to right, rgba(250, 251, 252, 0.9), rgba(250, 251, 252, 0.9)), url("./img/bg-3.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
