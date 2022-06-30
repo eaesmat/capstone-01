@@ -39,7 +39,7 @@ This is already deployet just checkout the demo link
 
 ## Authors
 
-👤 **Esmatullah Ahmadzai**
+👤 **Esmatullah Ahmadzai (Esmat)**
 
 - GitHub: [@githubhandle](https://github.com/eaesmat)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/)
