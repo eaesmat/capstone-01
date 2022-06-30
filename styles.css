@@ -1,104 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Nanum+Gothic:wght@700&family=Open+Sans&display=swap');
 
 * {
-  padding: 0;
   margin: 0;
-
-}
-
-body {
   padding: 0;
-  margin: 0;
-
+  font-family: 'Lato', sans-serif;
 }
 
-#bg-img {
-  background-image: linear-gradient(to right, rgba(250, 251, 252, 0.9), rgba(250, 251, 252, 0.9)), url("./img/bg-3.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 25vh;
-  width: 100vw;
+.fa-bars {
+  color: black;
+  margin: 30px;
 }
 
-#main {
-  background-image: linear-gradient(to right, rgba(250, 251, 252, 0.9), rgba(250, 251, 252, 0.9)), url("./img/about-bg.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-}
-
-div .gym-img-1 {
-  background-image: linear-gradient(to right, rgba(253, 122, 0, 0.5),
-      rgba(248, 113, 17, 0.5)), url("./img/gym02.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35vh;
-}
-
-div .gym-img-2 {
-  background-image: linear-gradient(to right, rgba(253, 122, 0, 0.5),
-      rgba(248, 113, 17, 0.5)), url("./img/gym01.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35vh;
-}
-
-#header {
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-}
-
-#bg-parent {
-  height: 100vh;
-}
-
-#img-heading {
-  padding-left: 20px;
-  padding-top: 70px;
-}
-
-#main-p {
-  margin-left: 20px;
-}
-
-#main-about-p {
-  width: 100v;
-}
-
-#img-heading h1 {
+.heading-intro {
+  font-size: 30px;
   color: #ec5242;
-  background-image: url('./img/3.png');
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.intro-sect {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.intro-sect h2 {
+  color: #ec5242;
+  font-size: 2rem;
+  background-image: url('./assets/images/3.png');
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#program {
-  background-image: url(./img/programs-bg.jpeg);
-  background-size: contain;
-  margin-top: 100px;
+.intro-description {
+  margin-top: 30px;
+  width: 70%;
+  font-size: 16px;
+  color: #272a31;
+  font-family: sans-serif;
 }
 
-div .hover:hover {
-  border: 3px solid white;
-}
-
-
-#logo {
-  height: 80px;
-  width: 80px;
-}
-
-#menu li a:hover {
-  color: red;
+.intro-sect h3 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #272a31;
 }
 
 .intro-sect h4 {
@@ -108,7 +56,7 @@ div .hover:hover {
 
 .first-page {
   border: 1px transparent solid;
-  background: linear-gradient(rgba(252, 252, 252, 0.7), rgba(185, 180, 180, 0.7)), url("./assets/images/home11.png");
+  background: linear-gradient(rgba(252, 252, 252, 0.7), rgba(185, 180, 180, 0.7)), url("./img/bg-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -200,6 +148,16 @@ div .hover:hover {
   font-weight: bold;
 }
 
+.more:hover {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
+.more-btn {
+  color: #ec5242;
+  margin-left: 10px;
+}
+
 /* Partners' Section */
 .partner-sect {
   background-color: #272a31;
@@ -277,7 +235,7 @@ footer {
 
 /* Featured Section */
 .featured-sect {
-  /* background-color: #d3d3d3; */
+ 
   border: 2px transparent solid;
 }
 
@@ -286,6 +244,7 @@ footer {
   flex-direction: column;
   padding-bottom: 10px;
 }
+
 
 .speaker-image img {
   width: 120px;
@@ -446,10 +405,10 @@ footer {
   gap: 20px;
 }
 
-.switzerland-pic {
+.sec-pic-1 {
   height: 250px;
   width: 100%;
-  background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./assets/images/switzerland-2017.jpeg");
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./img/gym02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -459,12 +418,12 @@ footer {
   right: 0;
 }
 
-.switzerland-pic h2 {
+.sec-pic-1 h2 {
   font-size: 30px;
   margin-top: 20%;
 }
 
-.switzerland-pic>* {
+.sec-pic-1 > * {
   color: white;
   display: flex;
   flex-direction: column;
@@ -472,10 +431,10 @@ footer {
   justify-content: center;
 }
 
-.mexico-pic {
+.sec-pic-2{
   height: 250px;
   width: 100%;
-  background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./assets/images/mexico-2019.jpg");
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./img/gym01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -485,12 +444,12 @@ footer {
   right: 0;
 }
 
-.mexico-pic h2 {
+.sec-pic-2 h2 {
   font-size: 30px;
   margin-top: 20%;
 }
 
-.mexico-pic>* {
+.sec-pic-2> * {
   color: white;
   display: flex;
   flex-direction: column;
@@ -719,7 +678,7 @@ footer {
     font-size: 12px;
   }
 
-  /* Featured Filmmakers Section */
+  /*  Section */
   .speakers-sect {
     display: flex;
     flex-direction: row;
@@ -814,7 +773,7 @@ footer {
     width: 65%;
   }
 
-  .switzerland-pic {
+  .sec-pic-1 {
     height: 250px;
     width: 100%;
     background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./assets/images/switzerland-2017.jpeg");
@@ -823,11 +782,11 @@ footer {
     background-size: 100% 100%;
   }
 
-  .switzerland-pic h2 {
+  .sec-pic-1 h2 {
     margin-top: 25%;
   }
 
-  .switzerland-pic>* {
+  .sec-pic-1 > * {
     color: white;
     display: flex;
     flex-direction: column;
@@ -836,7 +795,7 @@ footer {
     text-align: center;
   }
 
-  .mexico-pic {
+  .sec-pic-2{
     height: 250px;
     width: 100%;
     background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./assets/images/mexico-2019.jpg");
@@ -849,11 +808,11 @@ footer {
     right: 0;
   }
 
-  .mexico-pic h2 {
+  .sec-pic-2h2 {
     margin-top: 25%;
   }
 
-  .mexico-pic>* {
+  .sec-pic-2> * {
     color: white;
     display: flex;
     flex-direction: column;
@@ -892,38 +851,4 @@ footer {
   .intro-sect h2 {
     font-size: 4.5rem;
   }
-}
-
-@media screen and (max-width:390px) {
-
-  .hide-me {
-    display: none;
-  }
-
-  #hide-me {
-    display: none;
-  }
-
-}
-
-@media screen and (min-width:768px) {
-  #img-heading {
-    padding-left: 200px;
-    padding-top: 70px;
-  }
-
-  #main-p {
-    margin-left: 200px;
-
-  }
-
-  #year {
-    margin-right: 280px;
-    text-align: start;
-  }
-
-  div .hover {
-    min-height: 300px;
-  }
-
 }
