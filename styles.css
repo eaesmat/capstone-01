@@ -235,7 +235,6 @@ footer {
 
 /* Featured Section */
 .featured-sect {
- 
   border: 2px transparent solid;
 }
 
@@ -244,7 +243,6 @@ footer {
   flex-direction: column;
   padding-bottom: 10px;
 }
-
 
 .speaker-image img {
   width: 120px;
@@ -310,7 +308,6 @@ footer {
   font-weight: bold;
   cursor: pointer;
 }
-
 
 .more-down:active {
   color: #ec5242;
@@ -431,7 +428,7 @@ footer {
   justify-content: center;
 }
 
-.sec-pic-2{
+.sec-pic-2 {
   height: 250px;
   width: 100%;
   background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./img/gym01.jpg");
@@ -449,7 +446,7 @@ footer {
   margin-top: 20%;
 }
 
-.sec-pic-2> * {
+.sec-pic-2 > * {
   color: white;
   display: flex;
   flex-direction: column;
@@ -795,7 +792,7 @@ footer {
     text-align: center;
   }
 
-  .sec-pic-2{
+  .sec-pic-2 {
     height: 250px;
     width: 100%;
     background: linear-gradient(rgb(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./assets/images/mexico-2019.jpg");
@@ -808,11 +805,11 @@ footer {
     right: 0;
   }
 
-  .sec-pic-2h2 {
+  .sec-pic-2 h2 {
     margin-top: 25%;
   }
 
-  .sec-pic-2> * {
+  .sec-pic-2 > * {
     color: white;
     display: flex;
     flex-direction: column;
