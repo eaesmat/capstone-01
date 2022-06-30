@@ -11,15 +11,15 @@
 
 ## Live Demo
 
-Website Link - Check out the website on this [Live Demo Link](https://track92.github.io/Capstone-Project-Human-Rights-Film-Festival/)
+Website Link - Check out the website on this [Live Demo Link](https://eaesmat.github.io/capstone-01/)
 
 
 ## Authors
 
 👤 **Esmatullah Ahmadzai**
 
-- GitHub: [@TracK92](https://github.com/TracK92)
-- LinkedIn: [Tracey Kadenyi](https://www.linkedin.com/in/tracy-kadenyi-9bb90287)
+- GitHub: https://github.com/eaesmat
+- LinkedIn:https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/
 
 👤
 ## 🤝 Contributing
