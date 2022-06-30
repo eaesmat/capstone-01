@@ -58,7 +58,7 @@ featuredSect.classList.add('featured-sect');
 
 const headingTwo = document.createElement('h2');
 headingTwo.classList.add('featured-heading');
-headingTwo.innerHTML = 'Featured Filmmakers';
+headingTwo.innerHTML = 'Featured Speakers';
 featuredSect.appendChild(headingTwo);
 
 const horizontalLine = document.createElement('hr');
