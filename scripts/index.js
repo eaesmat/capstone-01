@@ -28,8 +28,8 @@ const featuredSpeakers = [
     id: 4,
     class: 'hide',
     name: 'Malala Hargez',
-    title: "Slow progress is better than no progress",
-    description: "Push harder today if you want a different tomorrow.Where fitness comes naturally.",
+    title: 'Slow progress is better than no progress',
+    description: 'Push harder today if you want a different tomorrow.Where fitness comes naturally.',
     featured_image: './img/speaker_04.png',
     alt_message: 'featured item-four',
   },
@@ -58,7 +58,7 @@ featuredSect.classList.add('featured-sect');
 
 const headingTwo = document.createElement('h2');
 headingTwo.classList.add('featured-heading');
-headingTwo.innerHTML = 'Featured Speakers';
+headingTwo.innerHTML = 'Featured Filmmakers';
 featuredSect.appendChild(headingTwo);
 
 const horizontalLine = document.createElement('hr');
