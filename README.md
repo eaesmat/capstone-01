@@ -12,7 +12,7 @@
 - JavaScript
 - Bootstrap
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://eaesmat.github.io/capstone-01/)
 
